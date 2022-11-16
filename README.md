@@ -1,26 +1,14 @@
-# Quasar App (social-media-quasar)
+# Messaging Web App Client for Quasar
 
-A Quasar Framework app
+## Project
 
-## Install the dependencies
-```bash
-npm install
-```
+- Real-time Chat messages exchanging system to other users
+- Check Friend's List
+- Check Friend's status
+- Multi-platform via Quasar adaptation 
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+## Technologies Stacks:
 
-### Lint the files
-```bash
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+- Quasar + Vue js (with Vuex and Vuetify)
+- Node.js + Feathers.js (for real-time WS communication)
+- Mongoose -> MongoDB
